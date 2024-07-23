@@ -1,20 +1,20 @@
-🚀 Excited to share my latest project: a Hand Gesture Volume Controller using Python, OpenCV, and MediaPipe! 🤚🎶
+🚀 Breaking Barriers: Real-Time ASL to Text Translation! 🌟
 
-This innovative project leverages real-time hand tracking and gesture recognition to adjust system volume seamlessly. By detecting the distance between the thumb and index finger, the volume can be controlled intuitively and contactlessly.
+Introducing my latest innovation: a revolutionary system that translates American Sign Language (ASL) into text in real-time using cutting-edge computer vision and machine learning! 🎉✨
 
-Key Features:
-🔹Real-time Hand Tracking: Utilizing MediaPipe’s robust hand detection and tracking capabilities.
-🔹Gesture-Based Volume Control: Adjust the volume by simply moving your fingers – an efficient and touch-free solution.
-🔹Volume Visualization: A dynamic volume bar displayed on the screen for real-time feedback.
-🔹Smooth Performance: Ensuring high FPS for a seamless user experience.
+💡 **Experience the Demo:** Watch as our system seamlessly recognizes and converts ASL gestures like "Hello," "Help," "I love you," "No," "Thank you," and "Yes" into text with remarkable accuracy. 
 
-Technical Highlights:
-💻 *Python*: The backbone of this project, integrating various libraries.
-📸 *OpenCV*: Handling video capture and processing.
-🖐 *MediaPipe*: Providing accurate hand landmarks detection.
+🔍 Key Features:
+- ⚡ Real-Time Detection: Tracks and recognizes ASL gestures instantly with OpenCV and a hand detection module.
+- 🎯 High Accuracy: Achieves 70% to 100% accuracy across different ASL signs.
+- 📈 FPS Calculation: Ensures smooth, real-time performance with frames per second (FPS) display.
+- 📊 Visual Feedback: Clear visual cues with labeled rectangles around detected hands and gesture predictions.
 
-How It Works:
-1. Hand Detection: The camera captures the hand movements.
-2. Landmark Extraction: MediaPipe identifies key landmarks on the hand.
-3. Distance Calculation: The distance between thumb and index finger is computed.
-4. Volume Adjustment: The volume is adjusted based on the computed distance.
+🌟 Technical Highlights:
+- 🖐️ Hand Detection: Uses `cvzone.HandTrackingModule` for precise hand landmark detection.
+- 🧠 Gesture Classification: A robust Keras model delivers precise ASL sign classification with `cvzone.ClassificationModule`.
+- 🔍 Image Processing: Cropped hand images adjusted to a 300x300 canvas for consistent classification.
+- 📚 Model Training: Superior gesture recognition trained with Google Teachable Machine.
+
+I've developed my own code and trained the model with Google Teachable Machine instead of labelimg.
+
