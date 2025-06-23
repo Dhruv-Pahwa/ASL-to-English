@@ -10,7 +10,7 @@ Introducing my latest innovation: a revolutionary system that translates America
 - 📈 FPS Calculation: Ensures smooth, real-time performance with frames per second (FPS) display.
 - 📊 Visual Feedback: Clear visual cues with labeled rectangles around detected hands and gesture predictions.
 
-🌟 Technical Highlights:
+🌟 Technical Highlights: 
 - 🖐️ Hand Detection: Uses `cvzone.HandTrackingModule` for precise hand landmark detection.
 - 🧠 Gesture Classification: A robust Keras model delivers precise ASL sign classification with `cvzone.ClassificationModule`.
 - 🔍 Image Processing: Cropped hand images adjusted to a 300x300 canvas for consistent classification.
