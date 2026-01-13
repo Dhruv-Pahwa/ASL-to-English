@@ -10,7 +10,7 @@ offset = 20
 imgSize = 300
 counter = 0
 
-folder = "Data/Help"
+folder = "#"
 
 while True:
     success, img = cap.read()
@@ -51,4 +51,5 @@ while True:
         counter += 1
         cv2.imwrite(f'{folder}/Image_{time.time()}.jpg', imgWhite)
         print(counter)
+
 
